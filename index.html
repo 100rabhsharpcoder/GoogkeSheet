@@ -49,29 +49,45 @@
         </select>
 
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined bold">
             format_bold
         </span>
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined italic">
             format_italic
         </span>
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined underline">
             format_underlined
         </span>
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined alignment">
             format_align_left
         </span>
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined alignment">
             format_align_center
         </span>
 
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined alignment">
             format_align_right
         </span>
+
+        <div class="color-prop">
+        <span class="material-symbols-outlined">
+            format_color_text
+        </span>
+        <input type="color" class="font-color-prop hidden-color-picker">
+
+        </div>
+
+        <div class="color-prop">
+        <span class="material-symbols-outlined">
+            format_color_fill
+        </span>
+        <input type="color" class="BGcolor-prop hidden-color-picker">
+    </div>
+
     </div>
     <div class="formula-actions-cont">
         <input type="text" readonly class="address-bar">
@@ -83,7 +99,7 @@
         <div class="top-left-dummy-box"></div>
         <div class="address-col-cont"></div>
         <div class="cells-cont">
-        <div class="address-row-cont"></div>
+            <div class="address-row-cont"></div>
 
         </div>
 
@@ -101,7 +117,8 @@
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="grid.js"></script>
+    <script src="cell properries.js"></script>
 </body>
 
 </html>
